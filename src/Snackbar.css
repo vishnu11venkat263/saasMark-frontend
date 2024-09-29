@@ -1,0 +1,32 @@
+.snackbar {
+    visibility: hidden;
+    min-width: 300px;
+    margin-left: -150px; /* Center the snackbar */
+    background-color: #333; /* Dark background for better visibility */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1000; /* Ensure it's above other elements */
+    left: 50%;
+    bottom: 30px; /* Positioned at the bottom */
+    transition: visibility 0s, opacity 0.5s linear;
+    opacity: 0; /* Invisible by default */
+  }
+  
+  .snackbar.show {
+    visibility: visible;
+    opacity: 1; /* Visible when the class is applied */
+  }
+  
+ 
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .snackbar {
+      min-width: 80%; /* Full width on mobile */
+      margin-left: 0; /* Reset margin for mobile */
+    }
+  }
+  

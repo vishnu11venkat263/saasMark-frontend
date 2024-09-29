@@ -1,0 +1,32 @@
+/* src/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e8eaed;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: white;
+    color: #5f3dc4;
+    border: 1px solid #d0d4db;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .button.review {
+    background-color: #5f3dc4;
+    color: white;
+  }
+  

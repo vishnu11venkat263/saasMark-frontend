@@ -1,0 +1,89 @@
+/* Styles for AddMovieForm component */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for larger screens */
+    margin: 50px auto; /* Centered with margin */
+    padding: 30px;
+  
+    
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  h2 {
+    text-align: left; /* Center the heading */
+    color: #333; /* Darker text for better contrast */
+    margin-bottom: 20px; /* Margin below the title */
+  }
+  
+  .input-group {
+    margin-bottom: 20px; /* Space between input fields */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch targets */
+  
+    border: 1px solid #ccc;
+    transition: border-color 0.3s; /* Smooth transition on focus */
+  }
+  
+  .input:focus {
+    border-color: #6c63ff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Container for the button to align it to the right */
+  .button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align button to the right */
+  }
+  
+  .button {
+    padding: 12px; /* Increased padding for button */
+    background-color: #6c63ff; /* Consistent color */
+    color: #fff;
+    border: none;
+   
+    cursor: pointer;
+    font-size: 16px; /* Larger font for button */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  
+  
+ 
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .form {
+      padding: 15px; /* Adjust padding for smaller screens */
+      max-width: 90%; /* Adjust max width for smaller screens */
+    }
+  
+    .button {
+      font-size: 14px; /* Adjust button font size for smaller screens */
+      padding: 10px; /* Adjust button padding */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form {
+      padding: 10px; /* Less padding for very small screens */
+      max-width: 95%; /* Form takes more width */
+    }
+  
+    .button-container {
+      justify-content: center; /* Center the button on small screens */
+    }
+  
+    .button {
+      width: 100%; /* Button takes full width on small screens */
+      padding: 12px; /* Adjust button padding */
+      font-size: 16px; /* Button text size remains readable */
+    }
+  }
+  

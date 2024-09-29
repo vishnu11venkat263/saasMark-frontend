@@ -1,0 +1,79 @@
+.movie-review-container {
+    width: 97%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .rating {
+    font-size: 24px;
+    color: #6a00ff;
+  }
+  
+  
+  
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .review-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .author {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .score {
+    font-size: 18px;
+    color: #6a00ff;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: black;
+  }
+  
